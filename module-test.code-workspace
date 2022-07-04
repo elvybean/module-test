@@ -1,0 +1,9 @@
+{
+	"editor.formatOnSave": true,
+	"prettier.ignorePath": "../.prettierignore",
+	"folders": [
+		{
+			"path": "."
+		}
+	]
+}
