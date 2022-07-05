@@ -1,14 +1,9 @@
-
-def Four():
-    print("This text output is from defFour function")
-
-
-def Five():
-    print("This text output is from defFive function")
+from . import script1 as One
+from . import script2 as Two
 
 
 def Three():
     print("This text output is from the module script3's defThree function")
-    print("now calling functions from within script3")
-    Four()
-    Five()
+    print("now calling functions from script1 and script2 but within script3")
+    Two.Four()
+    One.Five()
