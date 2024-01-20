@@ -1,2 +1,2 @@
 # module-test
-python repository created to learn the basics of creating and importing local python packages
+python repository created to teach myself thebasics of creating and importing local python packages
